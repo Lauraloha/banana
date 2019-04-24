@@ -38,12 +38,8 @@ const images = [
       src: "https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1278&q=80",
       width: 4,
       height: 3
-    },
-    {
-      src: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1409&q=80",
-      width: 4,
-      height: 3
     }
+
   ]
 
   export default images;

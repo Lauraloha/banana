@@ -56,36 +56,16 @@ return (
 <Header/>
 <Gallery photos={images} />   
 <Decofruits/>
-<br></br>
 <Form getSearchNameProp={this.getSearchName} />
 <CardImgOverlay>
         <Recipes sendRecipesProp = {this.state.hitsArray}/>
         </CardImgOverlay>
-<br></br>
 <DecoFruits1/>
-<br></br>
-<br></br>
 <Products/>
 
 <About/>
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+
 <Contact/>
 <Footer/> 
       </div>
