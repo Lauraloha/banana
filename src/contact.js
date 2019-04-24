@@ -8,9 +8,10 @@ class Contact extends Component {
 <div class="section">
   <div class="top-border left"></div>
   <div class="top-border right"></div>
-  <h1>CONTACT US</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a href="#">CONTACT ME</a>
+  <h1>CONTACT</h1>
+  <p>You Love Bananas or just looking for something specific?
+    Your favorite recipe is not on recipes-online? Submit your proposal.</p>
+    <a href="#">CONTACT US</a>
 </div>  
 )
 }}

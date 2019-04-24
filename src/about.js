@@ -19,11 +19,9 @@ class About extends Component {
       </div>
 
 
-      <div class="child grow"><h1>About fruits</h1>
-        <p>Hi there, I'm Terrance.
-           I am a front-end web developer in training,
-           and with backend development as my next goal.
-           I've been learning and practicing web development for about 6 months.
+      <div class="child grow"><h1>Banana recipes</h1>
+        <p>
+Banana bread, banana muffins, banana pudding, or banana cream pie. You can do more with bananas than the old peel-and-eat. Want recipes? We’ve got a bunch!
         </p>
       </div>
 

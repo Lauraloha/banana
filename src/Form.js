@@ -9,7 +9,7 @@ const Form = props =>(
           <Input type="text" name="searchname" placeholder="Search for any Recipe. Go on Try me!" />
          <InputGroupAddon addonType="append">
           
-          <Button color="primary">Search</Button>
+         <Button color="yellow">Search</Button>
           </InputGroupAddon>
     </InputGroup>
     </form>

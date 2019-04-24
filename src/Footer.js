@@ -6,7 +6,7 @@ class Footer extends Component {
   return (
  <header>
   <div class="overlay">
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
+<p>www.labanana.com</p>
   </div>
   </header>
       )

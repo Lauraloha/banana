@@ -8,7 +8,8 @@ import Gallery from 'react-photo-gallery';
 class Products extends Component {
     render() {
   return (
-    <section class="cards">
+    <section class="cards">  
+    >
 <article class="card card--1">
   <div class="card__info-hover">
     <svg class="card__like"  viewBox="0 0 24 24">
@@ -26,8 +27,8 @@ class Products extends Component {
    </a>
   <div class="card__info">
     <span class="card__category"> Recipe</span>
-    <h3 class="card__title">Mango</h3>
-    <span class="card__by">by <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+    <h3 class="card__title">Sugary banana breakfast</h3>
+    <span class="card__by">by <a href="#" class="card__author" title="author">Guilhem Banana</a></span>
   </div>
 </article>
   
@@ -49,8 +50,8 @@ class Products extends Component {
    </a>
   <div class="card__info">
     <span class="card__category"> Recipe</span>
-    <h3 class="card__title">Dragon fruit</h3>
-    <span class="card__by">by <a href="#" class="card__author" title="author">John Doe</a></span>
+    <h3 class="card__title">Banana smoothie</h3>
+    <span class="card__by">by <a href="#" class="card__author" title="author">Kevin Banana</a></span>
   </div>
 </article>  
 
@@ -72,8 +73,8 @@ class Products extends Component {
    </a>
   <div class="card__info">
     <span class="card__category">Recipe</span>
-    <h3 class="card__title">Banana</h3>
-    <span class="card__by">by <a href="#" class="card__author" title="author">John Doe</a></span>
+    <h3 class="card__title">Banana cake</h3>
+    <span class="card__by">by <a href="#" class="card__author" title="author">Yann Banana</a></span>
   </div>
 </article>  
 

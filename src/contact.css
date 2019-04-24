@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  color: #333;
+  color:#333;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   position: relative;
   width: 900px;
   max-width: 80%;
-  border: 2px solid #333;
+  border: 2px #FFFACD;;
   border-top: none;
   text-align: center;
   margin: 60px auto;
@@ -29,7 +29,7 @@ body {
   position: absolute;
   height: 2px;
   width: 24%;
-  background-color: #333;
+  background-color:#FFFACD;;
 }
 
 .right {
@@ -59,8 +59,8 @@ body {
   margin-bottom: 40px;
   width: 440px;
   max-width: 80%;
-  background-color: #333;
-  color: #fff;
+  background-color:#FFFACD;
+  color:#333 ;
   font-size: 22px;
   letter-spacing: 3px;
   transition: all 0.3s ease 0s;
@@ -69,12 +69,12 @@ body {
 }
 
 .section a:hover {
-  background-color: #1D222D;
+  background-color: #333;
 }
 
 .section a:link, .section a:visited, .section a:link:hover, .section a:visited:hover {
   text-decoration: none;
-  color: #fff;
+  color: #333;
 }
 
 @media (max-width: 500px) {
@@ -82,7 +82,7 @@ body {
     display: none;
   }
   .section {
-  border-top: 2px solid #333;
+  border-top: 2px ;
   }
   .section h1 {
     margin: 20px 6px;

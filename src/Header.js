@@ -6,11 +6,11 @@ class Header extends Component {
   return (
 <div class="header">
   <div class="sides">
-    <a href="#" class="logo">Banana</a>
+    <a href="#" class="logo"> Banana</a>
   </div>
   <div class="sides"> <a href="#" class="menu">-</a></div>
   <div class="info">
-  <h4><a href="#category">Fruits recipes</a></h4>
+  <h4><a href="#category">One banana, one recipe</a></h4>
       </div>
   </div>
       )
