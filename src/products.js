@@ -8,7 +8,7 @@ import Gallery from 'react-photo-gallery';
 class Products extends Component {
     render() {
   return (
-    <section class="cards">  
+    <section class="cards-deck">  
     >
 <article class="card card--1">
   <div class="card__info-hover">
