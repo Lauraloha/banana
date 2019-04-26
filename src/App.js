@@ -54,17 +54,18 @@ return (
 
 <Menu/>
 <Header/>
-<Gallery photos={images} />   
+
 <Decofruits/>
-<Form getSearchNameProp={this.getSearchName} />
-<CardImgOverlay>
-        <Recipes sendRecipesProp = {this.state.hitsArray}/>
-        </CardImgOverlay>
+
+<div className APP_ID>
+  <h1 style={{ display: 'flex', justifyContent: 'center', alignItems:'center'}}> <a href="https://xenodochial-torvalds-77990e.netlify.com/">Vos recettes</a></h1>
+</div>
+
 <DecoFruits1/>
 <Products/>
 
-<About/>
 
+<Gallery photos={images} />
 
 <Contact/>
 <Footer/> 
