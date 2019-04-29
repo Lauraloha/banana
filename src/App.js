@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Menu from './navbar';
-import Gallery from "react-photo-gallery";
-import images from './images'
-import Footer from './Footer';
-import Header from './Header';
-import Products from './products';
-import Contact from './contact';
-import About from './about';
-import Recipes from './Recipes';
-import { Card, CardImgOverlay, CardImg } from 'reactstrap';
-import Form from './Form'
-import './Form'
-import Decofruits from './Decofruits';
-import DecoFruits1 from './Decofruits1'
 
+import Gallery from "react-photo-gallery";
+import images from './Component/images'
+import Footer from './Component/Footer';
+import Header from './Component/Header';
+import Products from './Component/products';
+import Contact from './Component/contact';
+import Decofruits from './Component/Decofruits';
+import DecoFruits1 from './Component/Decofruits1'
 
 
 const APP_ID ="6b76f133";
@@ -52,40 +46,20 @@ class App extends Component {
 return (
 <div>
 
-<Menu/>
 <Header/>
-<Gallery photos={images} />   
+
 <Decofruits/>
-<br></br>
-<Form getSearchNameProp={this.getSearchName} />
-<CardImgOverlay>
-        <Recipes sendRecipesProp = {this.state.hitsArray}/>
-        </CardImgOverlay>
-<br></br>
+
+<div className APP_ID>
+  <h1 style={{ display: 'flex', justifyContent: 'center', alignItems:'center'}}> <a href="https://xenodochial-torvalds-77990e.netlify.com/">Your Recipes</a></h1>
+</div>
+
 <DecoFruits1/>
-<br></br>
-<br></br>
 <Products/>
 
-<About/>
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<Gallery photos={images} />
+
 <Contact/>
 <Footer/> 
       </div>

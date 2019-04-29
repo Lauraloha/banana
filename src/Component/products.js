@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './products.css'
-import Gallery from 'react-photo-gallery';
+import '../CSS/products.css'
+
 
 
 
@@ -8,8 +8,7 @@ import Gallery from 'react-photo-gallery';
 class Products extends Component {
     render() {
   return (
-    <section class="cards">  
-    >
+    <section class="card-deck">  
 <article class="card card--1">
   <div class="card__info-hover">
     <svg class="card__like"  viewBox="0 0 24 24">
