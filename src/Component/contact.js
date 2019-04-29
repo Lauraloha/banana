@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './contact.css'
-import Gallery from 'react-photo-gallery';
+import '../CSS/contact.css'
+
 
 class Contact extends Component {
     render() {

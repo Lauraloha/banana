@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Decofruits.css'
+import "../CSS/Decofruits.css"
 
 class Decofruits extends Component {
     render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './products.css'
-import Gallery from 'react-photo-gallery';
+import '../CSS/products.css'
+
 
 
 
